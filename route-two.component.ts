@@ -30,16 +30,20 @@ export class RouteTwoComponent {
     //private createRowData().map()
 
   private  createRowData() {
-  //   let data = new Array<any>();
+     let data1 = new Array<any>();
   //   this.dataProviderService.getall().subscribe(e=> data=e) ;
   //   return data; }
-  
-    //this.createRowData().getall();
+     
+  this.dataProviderService.getall()
+      .subscribe(data => data1 = data,error => error = error.statusText);
+      return data1;
+}
+    // this.createRowData().getall();
 
-       return [
-            {"row": "Row 1", "name": "Michael Phelps"},
-            {"row": "Row 2", "name": "Natalie Coughlin"},
-            {"row": "Row 3", "name": "Aleksey Nemov"}];}
+      //  return [
+      //       {"row": "Row 1", "name": "Michael Phelps"},
+      //       {"row": "Row 2", "name": "Natalie Coughlin"},
+      //       {"row": "Row 3", "name": "Aleksey Nemov"}];}
 
   private createColumnData()  {
     return [
