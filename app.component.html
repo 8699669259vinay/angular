@@ -1,0 +1,9 @@
+<div class="title">Angular version {{version}}</div>
+<div class="container">
+  <ul class="nav nav-tabs">
+    <li *ngFor="let tab of tabs" (click)="setActiveTab(tab)" [ngClass]="{'active': tab.active}">
+      <a routerLink="/{{tab.link}}" routerLinkActive="active">{{tab.title}}</a>
+    </li>
+  </ul>
+   <router-outlet></router-outlet> 
+</div>
