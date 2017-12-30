@@ -1,0 +1,33 @@
+http://stashblue.ms.com:11990/atlassian-stash/projects/MSDE_TRAIN_EXAMPLES/repos/angularjs2app/browse
+call \\ms\dist\winaurora\proj\compat\incr\bin\useafs.cmd
+$ module load msde/traincli/prod
+$ git clone http://stashblue.ms.com:11990/atlassian-stash/scm/msde_train_examples/angularjs2app.git src 
+$ cd src
+train build -t fastdev 
+
+https://code.visualstudio.com/docs?start=true
+
+
+ <script src="//toolkits.ms.com/ria/webaurora/2017.04.12-1/core2.system.js"></script>
+  <script src="js/build.override.js"></script>
+  <script src="js/systemjs.config.js"></script>
+  <script src="js/systemjs.bootstrap.js"></script>
+  <link rel="stylesheet" href="stylesheets/styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+
+
+C:\Users\harjot\Git\angularjs2app\src 
+
+C:\Users\bhuria\Git\newangular\src
+
+train build -t ts-deps => creating all directories npm
+
+
+
+PDEP.NDM.CHASE.TRANS.JNL.SUM(0)
+
+tailor lending 
+
+CHASE CONFIRMATION FILE: PMMS.NDM.CHASE.TRANS.JNL.SUM.G0619V00    
+
+8288096620
